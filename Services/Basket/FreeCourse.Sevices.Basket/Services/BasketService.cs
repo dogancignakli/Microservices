@@ -39,6 +39,7 @@ namespace FreeCourse.Sevices.Basket.Services
             var status = await _redisService.GetDatabase().StringSetAsync(basket.UserId, JsonSerializer.Serialize(basket));
             
             return status ? Response<bool>.Success(204) : Response<bool>.Fail("Basket could not update or save.", 500);
+
         }
     }
 }
