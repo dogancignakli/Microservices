@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dogancignakli/Projects/Microservices/IdentityServer/FreeCourse.IdentityServer/FreeCourse.IdentityServer.csproj": {}
+  },
+  "projects": {
+    "/Users/dogancignakli/Projects/Microservices/IdentityServer/FreeCourse.IdentityServer/FreeCourse.IdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dogancignakli/Projects/Microservices/IdentityServer/FreeCourse.IdentityServer/FreeCourse.IdentityServer.csproj",
+        "projectName": "FreeCourse.IdentityServer",
+        "projectPath": "/Users/dogancignakli/Projects/Microservices/IdentityServer/FreeCourse.IdentityServer/FreeCourse.IdentityServer.csproj",
+        "packagesPath": "/Users/dogancignakli/.nuget/packages/",
+        "outputPath": "/Users/dogancignakli/Projects/Microservices/IdentityServer/FreeCourse.IdentityServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dogancignakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pablika.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/dogancignakli/Projects/Microservices/Shared/FreeCourse.Shared/FreeCourse.Shared.csproj": {
+                "projectPath": "/Users/dogancignakli/Projects/Microservices/Shared/FreeCourse.Shared/FreeCourse.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dogancignakli/Projects/Microservices/Shared/FreeCourse.Shared/FreeCourse.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dogancignakli/Projects/Microservices/Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
+        "projectName": "FreeCourse.Shared",
+        "projectPath": "/Users/dogancignakli/Projects/Microservices/Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
+        "packagesPath": "/Users/dogancignakli/.nuget/packages/",
+        "outputPath": "/Users/dogancignakli/Projects/Microservices/Shared/FreeCourse.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dogancignakli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pablika.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
